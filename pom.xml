@@ -7,6 +7,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>spring-response-code</artifactId>
     <version>0.1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -56,7 +57,7 @@
                         <goals>
                             <goal>site</goal>
                         </goals>
-                        <phase>site</phase>
+                        <phase>deploy</phase>
                     </execution>
                 </executions>
             </plugin>
